@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4F610D5DD71AB1D0C1F1EA /* Pods_DriveSafeDrivePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF89ED1115457DC54EC5F6F0 /* Pods_DriveSafeDrivePro.framework */; };
+		8D0D03AB1E8FE62200C48DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D03AA1E8FE62200C48DA9 /* AppDelegate.swift */; };
+		8D0D03AD1E8FE62200C48DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D03AC1E8FE62200C48DA9 /* ViewController.swift */; };
+		8D0D03B01E8FE62200C48DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D03AE1E8FE62200C48DA9 /* Main.storyboard */; };
+		8D0D03B21E8FE62200C48DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D03B11E8FE62200C48DA9 /* Assets.xcassets */; };
+		8D0D03B51E8FE62200C48DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D03B31E8FE62200C48DA9 /* LaunchScreen.storyboard */; };
+		8DD93E1F1E8FE68200AB17BC /* Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD93E1E1E8FE68200AB17BC /* Bridging-Header.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D0D03A71E8FE62200C48DA9 /* DriveSafeDrivePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveSafeDrivePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0D03AA1E8FE62200C48DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D0D03AC1E8FE62200C48DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D0D03AF1E8FE62200C48DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D0D03B11E8FE62200C48DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D0D03B41E8FE62200C48DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D0D03B61E8FE62200C48DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD93E1D1E8FE68100AB17BC /* DriveSafeDrivePro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DriveSafeDrivePro-Bridging-Header.h"; sourceTree = "<group>"; };
+		8DD93E1E1E8FE68200AB17BC /* Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bridging-Header.m"; sourceTree = "<group>"; };
+		958F290EE1BCEC96C77715FC /* Pods-DriveSafeDrivePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveSafeDrivePro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveSafeDrivePro/Pods-DriveSafeDrivePro.debug.xcconfig"; sourceTree = "<group>"; };
+		B11DCD2F4E552653C04325FA /* Pods-DriveSafeDrivePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveSafeDrivePro.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveSafeDrivePro/Pods-DriveSafeDrivePro.release.xcconfig"; sourceTree = "<group>"; };
+		FF89ED1115457DC54EC5F6F0 /* Pods_DriveSafeDrivePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveSafeDrivePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0D03A41E8FE62200C48DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4F610D5DD71AB1D0C1F1EA /* Pods_DriveSafeDrivePro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0794755E2EA50786E0BA52D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF89ED1115457DC54EC5F6F0 /* Pods_DriveSafeDrivePro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D0D039E1E8FE62200C48DA9 = {
+			isa = PBXGroup;
+			children = (
+				8D0D03A91E8FE62200C48DA9 /* DriveSafeDrivePro */,
+				8D0D03A81E8FE62200C48DA9 /* Products */,
+				9950ACDCB6B7A84535FD1388 /* Pods */,
+				0794755E2EA50786E0BA52D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0D03A81E8FE62200C48DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D03A71E8FE62200C48DA9 /* DriveSafeDrivePro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0D03A91E8FE62200C48DA9 /* DriveSafeDrivePro */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D03AA1E8FE62200C48DA9 /* AppDelegate.swift */,
+				8D0D03AC1E8FE62200C48DA9 /* ViewController.swift */,
+				8D0D03AE1E8FE62200C48DA9 /* Main.storyboard */,
+				8D0D03B11E8FE62200C48DA9 /* Assets.xcassets */,
+				8D0D03B31E8FE62200C48DA9 /* LaunchScreen.storyboard */,
+				8D0D03B61E8FE62200C48DA9 /* Info.plist */,
+				8DD93E1E1E8FE68200AB17BC /* Bridging-Header.m */,
+				8DD93E1D1E8FE68100AB17BC /* DriveSafeDrivePro-Bridging-Header.h */,
+			);
+			path = DriveSafeDrivePro;
+			sourceTree = "<group>";
+		};
+		9950ACDCB6B7A84535FD1388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				958F290EE1BCEC96C77715FC /* Pods-DriveSafeDrivePro.debug.xcconfig */,
+				B11DCD2F4E552653C04325FA /* Pods-DriveSafeDrivePro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0D03A61E8FE62200C48DA9 /* DriveSafeDrivePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0D03B91E8FE62200C48DA9 /* Build configuration list for PBXNativeTarget "DriveSafeDrivePro" */;
+			buildPhases = (
+				2657759E5AC824C82EAA7845 /* [CP] Check Pods Manifest.lock */,
+				8D0D03A31E8FE62200C48DA9 /* Sources */,
+				8D0D03A41E8FE62200C48DA9 /* Frameworks */,
+				8D0D03A51E8FE62200C48DA9 /* Resources */,
+				2B2CB1A4FB415B3C09D403B8 /* [CP] Embed Pods Frameworks */,
+				CF7144329604130664E3763B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveSafeDrivePro;
+			productName = DriveSafeDrivePro;
+			productReference = 8D0D03A71E8FE62200C48DA9 /* DriveSafeDrivePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0D039F1E8FE62200C48DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Casper Biemans";
+				TargetAttributes = {
+					8D0D03A61E8FE62200C48DA9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2N592WSY9K;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D0D03A21E8FE62200C48DA9 /* Build configuration list for PBXProject "DriveSafeDrivePro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D0D039E1E8FE62200C48DA9;
+			productRefGroup = 8D0D03A81E8FE62200C48DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0D03A61E8FE62200C48DA9 /* DriveSafeDrivePro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0D03A51E8FE62200C48DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0D03B51E8FE62200C48DA9 /* LaunchScreen.storyboard in Resources */,
+				8D0D03B21E8FE62200C48DA9 /* Assets.xcassets in Resources */,
+				8D0D03B01E8FE62200C48DA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2657759E5AC824C82EAA7845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B2CB1A4FB415B3C09D403B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DriveSafeDrivePro/Pods-DriveSafeDrivePro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7144329604130664E3763B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DriveSafeDrivePro/Pods-DriveSafeDrivePro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0D03A31E8FE62200C48DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0D03AD1E8FE62200C48DA9 /* ViewController.swift in Sources */,
+				8D0D03AB1E8FE62200C48DA9 /* AppDelegate.swift in Sources */,
+				8DD93E1F1E8FE68200AB17BC /* Bridging-Header.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D0D03AE1E8FE62200C48DA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0D03AF1E8FE62200C48DA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D0D03B31E8FE62200C48DA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0D03B41E8FE62200C48DA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D0D03B71E8FE62200C48DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D0D03B81E8FE62200C48DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0D03BA1E8FE62200C48DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958F290EE1BCEC96C77715FC /* Pods-DriveSafeDrivePro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2N592WSY9K;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DriveSafeDrivePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.designstyle.DriveSafeDrivePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DriveSafeDrivePro/DriveSafeDrivePro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8D0D03BB1E8FE62200C48DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11DCD2F4E552653C04325FA /* Pods-DriveSafeDrivePro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2N592WSY9K;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DriveSafeDrivePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.designstyle.DriveSafeDrivePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DriveSafeDrivePro/DriveSafeDrivePro-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0D03A21E8FE62200C48DA9 /* Build configuration list for PBXProject "DriveSafeDrivePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0D03B71E8FE62200C48DA9 /* Debug */,
+				8D0D03B81E8FE62200C48DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0D03B91E8FE62200C48DA9 /* Build configuration list for PBXNativeTarget "DriveSafeDrivePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0D03BA1E8FE62200C48DA9 /* Debug */,
+				8D0D03BB1E8FE62200C48DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0D039F1E8FE62200C48DA9 /* Project object */;
+}
